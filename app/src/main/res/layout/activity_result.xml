@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false"
+    tools:context="marlon.melonchan.randomgame.ResultActivity">
+
+    <RelativeLayout
+        android:background="#448AFF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-light"
+                android:textSize="60dp"
+                android:text="Your Score"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                />
+            <TextView
+                android:layout_marginTop="70dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/SubNameLauncher"
+                android:fontFamily="sans-serif-light"
+                android:textSize="30dp"
+                android:layout_marginLeft="130dp"
+                android:text="from your skill"
+                android:textColor="#FFFFFF"
+                />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/score_id"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="200dp"
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="#d6ffffff"
+
+                    />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/back_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="236dp"
+                android:layout_height="66dp"
+                android:background="#dcffffff"
+                >
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_width="230dp"
+                android:layout_height="60dp"
+                android:id="@+id/r_bg_btn_id"
+                android:background="#448AFF">
+                <TextView
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BACK"
+                    android:id="@+id/r_btn_id"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="30dp"
+                    android:textColor="#FFFFFF"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="Chaiwiwat Koksantia"
+            android:layout_marginBottom="10dp"
+            android:textColor="#daffffff"
+            android:fontFamily="sans-serif-light"
+            android:textSize="15dp"
+            />
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>
